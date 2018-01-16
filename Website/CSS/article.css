@@ -1,0 +1,45 @@
+article{
+    font-size: 16pt;
+    background-color: rgba(255,255,255,0.8);
+}
+article a{
+    font-weight: bold;
+}
+article .cover{
+    width: 100%;
+    float: left;
+}
+.headl{
+    background-color: rgba(255,255,255,0.7);
+    width: 450px;
+    float: left;
+    position: relative; top: -180px;
+    padding-left: 30px;
+    border-right: 60px solid teal;
+}
+.headl h1{
+    font-weight: bolder;
+}
+.oimg{
+    position: relative; top: -80px;
+    margin: auto;
+    display: block;
+    width: 96%;
+}
+article p, article h3{
+    padding-left: 15px;
+    padding-right: 15px;
+    clear: left;
+    text-indent: 50px;
+    position: relative; top: -80px;
+}
+article h3{
+    font-weight: bold;
+    position: relative;left: -50px;
+}
+article .cptn{
+    font-size: 12pt;
+    text-indent: 0pt;
+    text-align: center;
+    color: rgb(50,50,50);
+}

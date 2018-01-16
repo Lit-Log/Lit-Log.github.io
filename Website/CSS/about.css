@@ -1,0 +1,79 @@
+article{
+    padding: 15px;
+    font-size: 16pt;
+    background-color: rgba(255,255,255,0.8);
+}
+article h1{
+    font-weight: bold;
+}
+article p{
+    text-indent: 30px;
+}
+article img{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+article a{
+    color: teal;
+    font-style: italic;
+}
+article .vaux{
+    color: wheat;
+    font-size: 8pt;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    border: solid 1px;
+    position: relative;
+    top: -400px;left: 300px;
+    background-color: teal;
+    opacity: 0.9;
+    cursor: pointer;
+}
+article .vaux img{
+    display: none;
+}
+article .vaux:hover article .vaux img,article .vaux:hover article .vaux{
+    display: block;
+    width: 200px;
+}
+article .dev{
+    position: relative;
+    top: -335px;
+    left: 620px;
+    border-radius: 3px;
+    border: solid 1px;
+    font-size: 8pt;
+    width: 100px;
+    background-color: teal;
+    color: wheat;
+    text-align: center;
+    cursor: pointer;
+}
+article .dev img{
+    display: none;
+}
+article .dev:hover .dev img,{
+    display: block;
+    width: 200px;
+    position: relative; bottom: 10px;
+}
+h3{
+    text-align: center;
+}
+article table{
+    width: 100%;
+}
+article table th, td{
+    text-align: center;
+}
+article table p{
+    position: relative; left: -20px;
+}
+article th{
+    padding-bottom: 30px;
+}
+article table tr td a img, article table tr td a    {
+    width: 50px;
+}

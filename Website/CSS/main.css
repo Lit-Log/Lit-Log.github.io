@@ -1,0 +1,145 @@
+body{
+    background-image: url("../pic/home_bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1359px;
+    background-color: goldenrod;
+    color: brown;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: calibri;
+    font-size: 13pt;
+    min-width: 1348px;
+    display: block;
+}
+/*a,a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}*/
+header img{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 1348px;
+}
+article{
+    margin: auto;
+    display: block;
+    width: 60%;
+    margin-top: 210px;
+    background-color: rgba(255,255,255,0.6);
+}
+aside{
+    background-color: rgba(225,225,255,0.7)
+}
+.lft{
+    float: left;
+    margin-left: 10px;
+    width: 250px;
+    padding: 10px;
+}
+.lft a{
+    width: 50px;
+    float: left;
+    padding-bottom: 20px;
+}
+.lft img{
+    width: 50px;
+}
+.lft .address{
+    font-size: 10pt;
+    position: relative; left: 10px;
+}
+.lft ul{
+    list-style-type: none;
+}
+.asdright{
+    float: right;
+    width: 250px;
+    margin-right: 10px;
+    font-size: 10pt;
+    line-height: 15px;
+    clear: right;  
+}
+.asdright h4{
+    color: goldenrod;
+    font-weight: bold;
+}
+.asdright div{
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+}
+.asdright a{
+    color: #333300;
+}
+.asdright a:hover{
+    color: white;
+}
+.asdright img{
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.bros img{
+   width: 30%;
+   float: left; 
+}
+.bros h4{
+    color: red;
+    font-weight: bold;
+    padding-left: 30%;
+}
+footer{
+    background-color: rgba(245,245,255,0.9);
+    width: 100%;
+    clear: both;
+    height: 230px;
+    margin-top: 10px;
+}
+footer .github img, .pshs img, .mi6 img{
+    padding-top: 10px;
+    height: 80px;
+    padding-left: 10px;
+}
+
+footer b{
+    color: red; font-size: 20pt; line-height: 15pt;
+}
+footer .mi6 img{
+    display: block;
+    padding-left: 300px;
+}
+footer .github{
+    padding-right: 10px;
+    float: right;
+    color: red;
+}
+footer .github img{
+    padding-right: 10px;
+    float: right;
+    width:  80px;  
+}
+footer .pshs img{
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    border-right: solid goldenrod 2px;
+}
+footer .pshs p{
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-top: 8px;
+    float: left;
+    color: red;
+    position: relative; top: -10px;
+}
+footer a{
+    color: brown;
+}
+.copyr{
+    text-align: center;
+    color: red;
+    clear: both;
+    position: relative; top: -70px;
+}
