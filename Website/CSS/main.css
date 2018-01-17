@@ -28,7 +28,7 @@ article{
     display: block;
     width: 60%;
     margin-top: 210px;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.7);
 }
 aside{
     background-color: rgba(225,225,255,0.7)
@@ -141,5 +141,6 @@ footer a{
     text-align: center;
     color: red;
     clear: both;
-    position: relative; top: -70px;
+    position: relative; top: -75px;
+    height: 0px;
 }
