@@ -3,8 +3,22 @@ article{
     font-size: 16pt;
     background-color: rgba(255,255,255,0.8);
 }
+#videoElement {
+    width: 60%;
+    background-image: url("../pic/smile.png");
+    height: 250px;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
 article h1{
     font-weight: normal;
+}
+article h3{
+    text-align: center;
 }
 article h1 b{
     font-weight: bolder;
