@@ -17,6 +17,7 @@ article table{
 }
 article table th, td{
     text-align: center;
+    width: 380px;
 }
 article table p{
     position: relative; left: -20px;
